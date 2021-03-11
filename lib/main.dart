@@ -46,19 +46,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _userTransaction = [
-    //Transaction(
-    //id: 't1',
-    //title: 'new shoes',
-    //amount: 99.9,
-    //date: DateTime.now(),
-    //),
-    //Transaction(
-    //id: 't2',
-    //title: 'weekly grociers',
-    //amount: 19.9,
-    //date: DateTime.now(),
-    //),
-  ];
+  
   bool _showChart = false;
   List<Transaction> get _recentTransactions {
     return _userTransaction.where((tx) {
